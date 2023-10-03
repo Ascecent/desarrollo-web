@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, small {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1000px;
+}
+
+.article {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-block: 1rem;
+}
+
+.article p {
+    text-align: justify;
+}
+
+.article-box {
+    flex: 1 1 90%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.orange-bg {
+    background-color: orange;
+}
+
+.blue-bg {
+    background-color: blue;
+}
+
+.green-bg {
+    background-color: green;
+}

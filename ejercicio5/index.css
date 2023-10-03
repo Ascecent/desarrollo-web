@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, small, a {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding: 1rem;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+nav li:hover {
+    font-size: 1.5rem;
+    color: black;
+    background-color: aliceblue;
+}
